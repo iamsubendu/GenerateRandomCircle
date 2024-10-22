@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+#container {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background-color: red;
+}
+.circle {
+  position: absolute;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+}
